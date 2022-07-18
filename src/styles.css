@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.cover{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.root{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+app-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    margin: 5px 20px;
+}
+
+app-add-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,194 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "PDF Extractor",
+      "start_date": "1641600000000",
+      "end_date": "1641945600000",
+      "description": "Extracting a tabular data from a pdf into excel file",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 130
+    },
+    {
+      "id": 2,
+      "title": "API(JSON) to CSV Program",
+      "start_date": "1641945600000",
+      "end_date": "1642377600000",
+      "description": "Program to get an JSON data from an API and store it in a CSV file.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 20
+    },
+    {
+      "id": 3,
+      "title": "Typing simulator",
+      "start_date": "1642377600000",
+      "end_date": "1644278400000",
+      "description": "I need a python script that simulates I'm typing. The script should read from one or multiple files text files and start typing on the screen.\n\nThis script should do the following:\n\n1- When it starts should wait until I press one key.\n\n2- When I press one key the script will start simulating typing until I press one key to pause or within the text there is one pause inserted. (within the text I should be able to specify a pause with some character)\n\n3- I should be able to switch between different files and continue where the last file was typing. Let's say that I pause in the last file and start with another file but I want to go back to the first file to continue in the last point where I stay.\n\n4- The script should recognize the TAB, SPACE, and ENTER or any format in the text file.\n\n5- If it is possible to specify what windows should be in focus before starting typing will be greater but it is optional.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 37.5
+    },
+    {
+      "title": "Javascript Developer to create small web-application",
+      "start_date": "1645488000000",
+      "end_date": "1646870400000",
+      "description": "The application creating the attached design and allowing it to easily access files in the same database so as to save the list of liked images in a text file as well as access the images in the database to provide the next one.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 125,
+      "id": 4
+    },
+    {
+      "title": "eCommerce website scrape [toolspareparts]",
+      "start_date": "1646179200000",
+      "end_date": "1646956800000",
+      "description": "Need help with scraping product data from one of my supplier's websites.\n\nPlease see the attached spreadsheet with a list of URLs and the second sheet with desired data output format.\n\nPlease review the task carefully as I will need all data from all the supplied 12,000+ URLs.\n\nThis should hopefully be a fairly easy task for someone experienced with creating automated scripts or data extraction software.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 20,
+      "id": 5
+    },
+    {
+      "title": "A script that would generate 4M JSON objects from a template",
+      "start_date": "1646870400000",
+      "end_date": "1647302400000",
+      "description": "As the result, I'd like to have a python script (so I can run it on any machine), that would generate a number (A) of JSON files with a number (B) of objects in each file. A and B should be configurable. Similar to this - https://json-generator.com/.\nSample record attached. The following fields should be randomized:\n\"deviceid\"\nAll \"MAC\" fields\n\"vc\"\n\"utc\"\n\"uptime\"\n\"date\"",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 45,
+      "id": 6
+    },
+    {
+      "title": "Extract text and images from pdf file",
+      "start_date": "1646092800000",
+      "end_date": "1647648000000",
+      "description": "Write a node.js program that extracts text and images from a pdf document. The input is a pdf file (see attached as an example). The output is a json document that contains text elements with available attributes (x, y, width, page, etc.). Example:\n\"x\":129.62,\"y\":23.039999999999964,\"str\":\"hendrerit dolor\",\"width\":84.55199999999999,\"height\":12,\"page\":\"0\"\nand a set of image files with image location in the document (x,y, page).",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 50,
+      "id": 7
+    },
+    {
+      "title": "eCommerce website scrape [modkingz.com.au]",
+      "start_date": "1650758400000",
+      "end_date": "1650844800000",
+      "description": "Ecommerce website scraping modkingz.com.au",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 20,
+      "id": 8
+    },
+    {
+      "title": "eCommerce website scrape [hilti.com.au]",
+      "start_date": "1652140800000",
+      "end_date": "1653350400000",
+      "description": "Ecommerse scraping hilti.com.au",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 100,
+      "id": 9
+    },
+    {
+      "title": "Automatic webscraping tool",
+      "start_date": "1645401600000",
+      "end_date": "1653523200000",
+      "description": "I have a list of links, they all contain a table, whole list is ~100 links, only content is different)\n\nIt should export to excel so it can be filtered.\nI need all the colums (all links have same amount of colums) should be merged into 1 excel file.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 30,
+      "id": 10
+    },
+    {
+      "title": "Build python retail store program using oops concept",
+      "start_date": "1653177600000",
+      "end_date": "1653523200000",
+      "description": "Python retail store uni assignment program using object oriented concepts with only allowed libraries are sys, os, date and copy.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 100,
+      "id": 11
+    },
+    {
+      "title": "eCommerce website scrape [tenaru.com.au]",
+      "start_date": "1653436800000",
+      "end_date": "1653523200000",
+      "description": "Ecommerse scraping tenaru.com.au",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 35,
+      "id": 12
+    },
+    {
+      "title": "Screen grab script needed",
+      "start_date": "1654214400000",
+      "end_date": "1654473600000",
+      "description": "I need to have a script that will pull up a URL and do a screen grab. It will be important to be able to set the size of the grab, because the dimensions are fixed. It may be best to open the URL in an iframe to control this.\n\nThe script will read a record from a CSV input file, open the URL from that record, wait for the page to render, do the grab, and save the image file based on an ID # that is in the CSV record. Then it will do the next line until all the records are processed.\n\nThe number of records to do is very large, so efficiency and minimum file size is very important. It should be simple!",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 100,
+      "id": 13
+    },
+    {
+      "title": "JavaScript developer to do programming exercises",
+      "start_date": "1654560000000",
+      "end_date": "1654560000000",
+      "description": "I need a JavaScript developer to do some programming exercises. There can also require knowledge on SQL and Python.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 20,
+      "id": 14
+    },
+    {
+      "title": "Python program to read the data and display",
+      "start_date": "1654646400000",
+      "end_date": "1654905600000",
+      "description": "Small python program to read the data and display",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 75,
+      "id": 15
+    },
+    {
+      "title": "Wedding Attendance web application",
+      "start_date": "1647820800000",
+      "end_date": "1654992000000",
+      "description": "Wedding attendance web app to capture guests greeting and post to the feed.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 143.33,
+      "id": 16
+    },
+    {
+      "title": "Javascript Developer to create small web-application version 2",
+      "start_date": "1647993600000",
+      "end_date": "1654992000000",
+      "description": "Functional requirements 1. Make sure design stays consistent with attached design specifications (arrows stay consistently in place and do not move depending on the length of the text for ease of use on both desktop and mobile) 2. Be able to view the full image and navigate around the full image (aka scroll around by dragging with the mouse or by moving with your fingers on a mobile using common gestures) 3. When on a desktop, be able to use keyboard commands to navigate; 1. LEFT arrow key to go left, RIGHT arrow key to go right 2. SPACEBAR to Like and Unlike an image 3. ESC or ENTER to exit full screen mode of an image, ENTER to go into full screen mode of an image. 4. Potentially add a small bit of haptic feedback such as a light vibration when liking an image on a mobile device (unsure if this is possible in a web application) 5. Add a small animation (visual candy) when a user likes an image (will attach some examples). 6. Improve the popup to allow users to register a unique username and try to remember what their last username was for their current device (i.e. instead of filling in ‘guest’ in the prompt, fill in the user we think they are based on their device) 1. Disclaimer page only the first time a user opens the page which holds a simple bit of text that they can accept or decline, if you decline, it doesn't allow you to use the web app. 2. Also allow for us to input ‘admin’ as the username, then the prompt will ask for a password which we will have which will allow us to look at the admin panel. (See point 13.) 7. Integrate access to an existing recommender system to recommend images instead of always displaying a random image. 8. Create a functional ‘likes’ page where a user can access all of the images they have liked on said profile, and be able to look at images, and like/unlike them as need be. (as per design specifications attached) 9. Additional experimental feature, keep track of how many likes an image currently has in total (over all users) and display on the image as per attached design specifcations. 10. Nice transitions from each image (to avoid the flashing of white when loading between images) 11. Ability to keep track of user browsing data; 1. What time a user liked an image 2. How long a user spent looking at an image (did they come back to this image later on and how long? Did they access this image on the for you page or on their personal likes page? etc) 3. How many images have passed since the user liked an image (distance between previously liked image and newly liked image) = precision of recommendations 4. Did the user tab out of the web application or close the web application after looking at a specific image? 12. Ability to host on a dedicated server and not portforwarded. 13. ADMIN PANEL with a specific login that allows us to easily navigate user profiles for us to investigate behind the scenes (as per design specifications)",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 300,
+      "id": 17
+    },
+    {
+      "title": "Customise Python Wordsearch Script from GitHub",
+      "start_date": "1655510400000",
+      "end_date": "1655856000000",
+      "description": "The following script on GitHub\n\n\n\nhttps://github.com/thelabcat/word-search-generator\n\n\n\nGenerates a wordsearch from words the user inputs.\n\n\n\nI need this script customising so that it can take the following attached spreadsheet and output a wordsearch for each row where the wordsearch grid it output as a series of letters in the spreadsheet in a new workbook.\n\n\n\nYou will see there are 3 workbooks:\n\n\n\nInput: This contains the title of each wordsearch in column A and the words to be used in creating the wordsearch in the columns on the right, each row is the source for one wordsearch.\n\n\n\nOutput: This contains the Title of the output wordsearch in column A then in the subsequent columns are all of the letters of the wordsearch where A1 B1 C1 etc represent the top row of the wordsearch and A2 B2 C2 represents the second row and so on.\n\n\n\nAnswers: This will be a duplicate of the Output worksheet but only with the word letters populated.",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 30,
+      "id": 18
+    },
+    {
+      "title": "eCommerce website scrape [prokit.com.au]",
+      "start_date": "1657411200000",
+      "end_date": "1657670400000",
+      "description": "Ecommerse website scraping prokit.com.au",
+      "cover": "project-icon.png",
+      "status": true,
+      "budget": 27.5,
+      "id": 19
+    }
+  ]
+}
