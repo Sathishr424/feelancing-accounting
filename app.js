@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser());
 app.options('*', cors());
+app.use('/', express.static(path.join(__dirname, 'client/dist/freelancing-accounting')));
 
 app.use(function(req, res, next) {
     res.set({
@@ -31,7 +32,7 @@ const Project = require('./model/project');
 const auth = require("./middleware/auth");
 
 app.get('/', (req,res) => {
-    res.send("Server running...");
+    res.sendFile(path.join(__dirname, 'client/dist/freelancing-accounting/index.html'));
 });
 
 app.post('/signUp', async function (req, res) {

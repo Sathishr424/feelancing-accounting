@@ -18,7 +18,7 @@ export class AddProjectComponent implements OnInit {
   end_date: string;
   description: string = "";
   earned: Number = 0;
-  completed: boolean;
+  completed: boolean = false;
   editing: boolean = false;
   github: string = "";
   tag: string;
@@ -69,7 +69,7 @@ export class AddProjectComponent implements OnInit {
     // console.log(this.start_date);
     // console.log(this.end_date)
     // this.onAddProject.emit(project);
-    if (!(this.title && this.start_date && this.end_date && this.completed)){
+    if (!(this.title && this.start_date && this.end_date)){
       alert("Please fill all the required fields!!");
       return;
     }
