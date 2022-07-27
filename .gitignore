@@ -8,11 +8,8 @@
 
 # Node
 /node_modules
-/client/node_modules
-/server/node_modules
-/client/.angular
-/client/.angular/*
-/client/.angular/cache
+*/node_modules
+*/angular
 npm-debug.log
 yarn-error.log
 
