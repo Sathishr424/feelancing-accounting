@@ -2,4 +2,4 @@
 
 Via this website track you freelancing and personal projects
 
-### https://sat-freelance-accounting.glitch.me/signIn
+### https://sat-freelance-accounting.glitch.me/
