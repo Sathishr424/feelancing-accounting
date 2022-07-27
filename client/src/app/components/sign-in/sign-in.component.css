@@ -1,0 +1,89 @@
+.banner{
+    text-align: start;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(35, 35, 36);
+    border-radius: 3px;
+}
+
+.button{
+    cursor: pointer;
+    text-align: start;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 2px 20px 2px 15px;
+    font-size: 15px;
+    background-color: rgb(35, 35, 36);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5)
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.toggleButton{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.holder{
+    color: white;
+    min-width: 350px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    /* border: 2px solid greenyellow; */
+    background-color: rgb(44, 96, 173);
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-control label{
+    margin: 4px 2px;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: bottom;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.form-control input{
+    font-size: 15px;
+    padding: 4px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+form{
+    margin: 0px 5px 10px 5px;
+}
+
+.errorInfo{
+    font-size: 16px;
+    margin: 5px 15px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(197, 85, 85);
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,133 @@
+p{
+    margin: 1px;
+}
+
+.project-card{
+    background-color: rgb(56, 3, 141);
+    padding:10px;
+    border-radius: 10px;
+    margin:5px;
+    color: white;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    min-width: 400px;
+    width: 70vw;
+}
+
+.project-card-title{
+    padding-left: 0px;
+    color: white;
+    font-weight: bolder;
+    margin: 2px 5px;
+    font-size: 17px;
+    /* font-family: Cambria; */
+}
+
+.project-card-des{
+    margin: 2px 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.project-card-date{
+    color: aliceblue;
+    font-size: 16px;
+    padding: 2px 5px;
+    font-family: 'Lucida Bright';
+    border-left: solid 5px rgb(4, 238, 255);
+}
+
+.project-card-github{
+    cursor: pointer;
+    color: aliceblue;
+    margin: 2px 5px;
+    font-size: 16px;
+    padding: 6px 5px;
+    display: flex;
+    border-left: solid 5px rgb(31, 30, 30);
+    flex-direction: row;
+}
+.github{
+    margin-left: 10px;
+    font-style: oblique;
+}
+.github:hover{
+    text-decoration: underline;
+}
+
+.project-card-price{
+    color: aliceblue;
+    margin: 2px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border-left: solid 5px greenyellow;
+    padding: 8px 5px;
+}
+.project-card-status{
+    width: 100px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 5px 100px 5px 8px;
+    margin: 2px 0px 2px 0px;
+    font-size: 16px;
+    border-left: solid 5px greenyellow;
+    border-right: solid 5px greenyellow;
+    background-color: rgb(35, 35, 36);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5)
+}
+
+.icon{
+    margin: 2px 4px;
+}
+
+.tags-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.tags{
+    font-size: 14px;
+    margin: 4px 2px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: rgb(29, 26, 26);
+    border-radius: 5%;
+}
+/* .tags:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+} */
+
+.tag{
+    padding: 1px 5px;
+}
+
+.close-icon{
+    cursor: pointer;
+    padding: 0px 2px;
+}
+
+.button{
+    cursor: pointer;
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 15px;
+    background-color: rgb(35, 35, 36);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5)
+}
+
+.button:hover{
+    opacity: 0.8;
+}

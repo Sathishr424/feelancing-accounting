@@ -1,0 +1,100 @@
+.add-project{
+    min-width: 400px;
+    max-width: 400px;
+    margin: 10px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    /* border: 2px solid greenyellow; */
+    background-color: rgb(44, 96, 173);
+}
+.add-project-form-holder{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 15px 2px 15px;
+}
+
+.add-project-form-holder label{
+    color: aliceblue;
+    margin: 2px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.add-project-form-holder input{
+    font-size: 15px;
+    height: 20px;
+    padding: 5px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+input[type=checkbox]{
+    display: block;
+    margin: 2px 5px 2px 15px;
+    width: 20px;
+    height: 20px;
+}
+
+textarea{
+    padding: 5px;
+    font-size: 16px;
+}
+
+.banner{
+    text-align: start;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(35, 35, 36);
+    border-radius: 3px;
+}
+
+.button{
+    width: fit-content;
+    cursor: pointer;
+    text-align: start;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 5px 2px 10px 15px;
+    font-size: 14px;
+    background-color: rgb(35, 35, 36);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5)
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.tags-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.tags{
+    font-size: 14px;
+    margin: 4px 2px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.tag{
+    padding: 1px 5px;
+}
+
+.close-icon{
+    cursor: pointer;
+    padding: 0px 2px;
+}

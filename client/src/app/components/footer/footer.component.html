@@ -1,0 +1,7 @@
+<div *ngIf="getRouterUrl() != '/signIn'" class="footer">
+    <div class="text">Earnings: ${{earning}}</div>
+    <div class="text">|</div>
+    <div class="text">Projects: {{total}}</div>
+    <div *ngIf="total > 1" class="text">|</div>
+    <div *ngIf="total > 1" class="text">Per Project: ${{(earning.valueOf() / total.valueOf()).toFixed(2)}}</div>
+</div>

@@ -1,0 +1,13 @@
+<div class="header">
+    <h3>Freelancing Accounting</h3>
+    <div class="row-button">
+        <div *ngIf="onPageChange('/')" class="button" routerLink="/add_project">Add project</div>
+        <div *ngIf="getRouter().url == '/add_project'" class="button" routerLink="/">Home</div>
+        <div *ngIf="getRouter().url != '/signIn'" class="button" (click)="logout()"><i [style]="{color: 'orange', fontWeight: 'bold'}" class='icon fa fa-power-off'></i></div>
+    </div>
+</div>
+<div *ngIf="getRouter().url == '/' && total > 0" class="sorting-options">
+    <div class="hover-button" (click)="sortChange('budget')">By Budget</div>
+    <div class="hover-button" (click)="sortChange('date')">By Date</div>
+    <div class="hover-button" (click)="sortChange('status')">By Completed</div>
+</div>

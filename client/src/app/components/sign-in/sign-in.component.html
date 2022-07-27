@@ -1,0 +1,24 @@
+<div class="sign-in">
+    <div class="holder">
+        <div class="banner">{{signIn ? "Sign In" : "Sign Up"}}</div>
+        <form>
+            <div class="form-control">
+                <label>Username</label>
+                <input [(ngModel)]="username" placeholder="username" type="text" name="username">
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input [(ngModel)]="password" placeholder="********" type="password" name="password">
+            </div>
+            <div *ngIf="!signIn" class="form-control">
+                <label>Confirm Password</label>
+                <input [(ngModel)]="c_password" placeholder="********" type="password" name="c_password">
+            </div>
+            <div (click)="submit()" class="button">{{signIn ? "Sign In" : "Sign Up"}}</div>
+            <div (click)="toggleSignIn()" class="toggleButton">Wants to {{signIn ? "Sign Up" : "Sign In"}}?</div>
+        </form>
+        <div *ngIf="errors" class="errorInfo">
+            {{errors}}
+        </div>
+    </div>
+</div>
