@@ -1,3 +1,3 @@
 ## FreelancingAccounting
 
-Using this we can save our freelancing or personal projects
+Via this website track you freelancing and personal projects
