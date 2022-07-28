@@ -9,6 +9,8 @@
 }
 
 .button{
+    display: flex;
+    flex-direction: row;
     cursor: pointer;
     text-align: start;
     color: rgb(240, 240, 240);
@@ -16,9 +18,12 @@
     padding: 5px 20px;
     margin: 2px 20px 2px 15px;
     font-size: 15px;
+    width: -webkit-fill-available;
     background-color: rgb(35, 35, 36);
     border-radius: 3px;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5)
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0,0.5);
+    border: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .button:hover{

@@ -27,6 +27,7 @@ p{
     font-size: 16px;
     padding-left: 10px;
     font-style: italic;
+    word-break    : break-word;
 }
 
 .project-card-date{
@@ -46,10 +47,12 @@ p{
     display: flex;
     border-left: solid 5px rgb(31, 30, 30);
     flex-direction: row;
+    word-break    : break-all;
 }
 .github{
-    margin-left: 10px;
-    font-style: oblique;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: bold;
 }
 .github:hover{
     text-decoration: underline;

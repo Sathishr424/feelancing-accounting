@@ -2,7 +2,7 @@
     <div class="banner">{{editing ? 'Editing' : 'New Project'}}</div>
     <div class="add-project-form-holder">
         <label>Project name *</label>
-        <input class="input" type="text" name="title" [(ngModel)]="title">
+        <input placeholder="Name" class="input" type="text" name="title" [(ngModel)]="title">
     </div>
     <div class="add-project-form-holder">
         <label>Start date *</label>
@@ -14,11 +14,11 @@
     </div>
     <div class="add-project-form-holder">
         <label>Github Repo</label>
-        <input class="input" type="url" name="github" [(ngModel)]="github">
+        <input placeholder="Repo link" class="input" type="url" name="github" [(ngModel)]="github">
     </div>
     <div class="add-project-form-holder">
         <label>Tags</label>
-        <input class="input" type="url" name="tags" [(ngModel)]="tag" (ngModelChange)="tagChange($event)">
+        <input placeholder="Type your tags seperated by comma" class="input" type="url" name="tags" [(ngModel)]="tag" (ngModelChange)="tagChange($event)">
         <div class="tags-holder">
             <div *ngFor="let html_tag of tags; let i=index" class="tags">
                 <div class="tag">{{html_tag}}</div>
@@ -28,7 +28,7 @@
     </div>
     <div class="add-project-form-holder">
         <label>Description</label>
-        <textarea #des class="input" rows="5" [(ngModel)]="description" name="description"></textarea>
+        <textarea placeholder="Type description here..."  #des class="input" rows="5" [(ngModel)]="description" name="description"></textarea>
     </div>
     <div class="add-project-form-holder">
         <label>Earned</label>
@@ -38,5 +38,5 @@
         <input class="input" type="checkbox" name="completed" [(ngModel)]="completed">
         <label>Completed *</label>
     </div>
-    <input type='submit' class="button" [value]="editing ? 'Edit' : 'Add'">
+    <button type='submit' class="button">{{editing ? 'Edit' : 'Add'}}</button>
 </form>

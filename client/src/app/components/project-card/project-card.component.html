@@ -15,7 +15,7 @@
             <p>{{project.end_date}}</p>
         </div>
         <div class="project-card-github">
-            Github: <div class="github" (click)="goToGithub(project.github)">{{project.github}}</div>
+            <div class="github" (click)="goToGithub(project.github)">{{project.github}}</div>
         </div>
         <div class="tags-holder">
             <div *ngFor="let html_tag of project.tags; let i=index" class="tags">

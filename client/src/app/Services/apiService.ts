@@ -15,15 +15,15 @@ const httpOptions = {
   })
 }
 
-const baseURL = '/projects';
-
+const preURL = 'http://localhost:3000';
+const baseURL = preURL + '/projects';
 @Injectable({
   providedIn: 'root'
 })
 export class APIService {
   private apiUrl = '/projects';
-  private signInUrl = '/signIn';
-  private signUpUrl = '/signUp';
+  private signInUrl = preURL + '/signIn';
+  private signUpUrl = preURL + '/signUp';
   user: User;
   constructor(private http:HttpClient, private commonService: CommonService) {
 
