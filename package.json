@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx kill-port 3000 && node index.js",
-    "dev": "npx kill-port 3000 && node index.js"
+    "start": "node index.js",
+    "dev": "npx kill-port 3000 && nodemon index.js",
+    "build": "cd client && ng build"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
