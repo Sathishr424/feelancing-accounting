@@ -15,8 +15,9 @@ const httpOptions = {
   })
 }
 
-const preURL = 'http://localhost:3000';
+const preURL = '';
 const baseURL = preURL + '/projects';
+// console.log(location.origin)
 @Injectable({
   providedIn: 'root'
 })
