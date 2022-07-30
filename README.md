@@ -1,6 +1,6 @@
 ## FreelancingAccounting
 
-Via this website track you freelancing and personal projects
+Track your freelancing and personal projects via this website.
 
 ### [https://freelance-accounting-sat.glitch.me/](https://tungsten-separated-veil.glitch.me/)
 
